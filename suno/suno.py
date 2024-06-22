@@ -12,6 +12,11 @@ import requests
 from .models import ModelVersions, Clip, CreditsInfo
 from .utils import create_clip_from_data, response_to_clips, generate_fake_useragent
 
+from dotenv import load_dotenv
+
+# Carga las variables de entorno desde el archivo .env
+load_dotenv()
+
 # Setup basic logging configuration
 logger = logging.getLogger("SunoAI")
 logging.basicConfig(level=logging.INFO)
@@ -19,6 +24,11 @@ logging.basicConfig(level=logging.INFO)
 # Fetch the cookie from environment variables; used for authentication
 COOKIE = os.getenv("SUNO_COOKIE", "")
 
+# Imprimir toda la data de cada canción
+def print_log_data(response):
+    # TODO: comentar para evitar mostrar todo en la consola
+    # logger.info(response.text)
+    print("")
 
 class Suno():
     """Main class for interacting with Suno API."""
@@ -132,7 +142,8 @@ class Suno():
 
         response = self.client.post(
             f"{Suno.BASE_URL}/api/generate/v2/", json=payload)
-        logger.info(response.text)
+        # logger.info(response.text)
+        print_log_data(response)
 
         self._cehck_error(response)
 
@@ -191,7 +202,8 @@ class Suno():
             url += f"?ids={songIds}"
         logger.info("Getting Songs Info...")
         response = self.client.get(url)  # Call API
-        logger.info(response.text)
+        # logger.info(response.text)
+        print_log_data(response)
         self._cehck_error(response)
         return response_to_clips(response.json())
 
@@ -209,7 +221,8 @@ class Suno():
         logger.info("Getting Song Info...")
         response = self.client.get(
             f"{Suno.BASE_URL}/api/feed/?ids={id}")  # Call API
-        logger.info(response.text)
+        # logger.info(response.text)
+        print_log_data(response)
         self._cehck_error(response)
         return create_clip_from_data(response.json()[0])
 
@@ -219,7 +232,8 @@ class Suno():
         logger.info("Credits Info...")
         response = self.client.get(
             f"{Suno.BASE_URL}/api/billing/info/")  # Call API
-        logger.info(response.text)
+        # logger.info(response.text)
+        print_log_data(response)
         self._cehck_error(response)
         if response.status_code == 200:
             data = response.json()

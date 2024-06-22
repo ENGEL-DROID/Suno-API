@@ -23,3 +23,5 @@ setup.py
 # Python venv
 .venv
 helper.txt
+
+canciones_descargadas

@@ -1,0 +1,67 @@
+[
+    {
+        "category": "Cumple Especial",
+        "variations": [
+            {
+                "prompt": "canción de cumpleaños romántica para mi amor al estilo vallenato colombiano, salsa, cumbia villera, tecno cumbia, merengue",
+                "tags": ["vallenato colombiano", "salsa", "cumbia villera", "tecno cumbia", "merengue"],
+                "title": "Cumpleaños romántico para mi amor"
+            },
+            {
+                "prompt": "canción de cumpleaños apasionada para mi amor al estilo mariachi, ranchera, bachata, emd, electrónica",
+                "tags": ["mariachi", "ranchera", "bachata", "emd", "electrónica"],
+                "title": "Cumpleaños apasionado para mi amor"
+            },
+            {
+                "prompt": "canción de cumpleaños alegre para mi hijo al estilo salsa, merengue, tecno cumbia, dance, electrónica",
+                "tags": ["salsa", "merengue", "tecno cumbia", "dance", "electrónica"],
+                "title": "Cumpleaños alegre para mi hijo"
+            },
+            {
+                "prompt": "canción de cumpleaños divertida para mi hijo al estilo vallenato colombiano, cumbia villera, mariachi, ranchera, bachata",
+                "tags": ["vallenato colombiano", "cumbia villera", "mariachi", "ranchera", "bachata"],
+                "title": "Cumpleaños divertido para mi hijo"
+            },
+            {
+                "prompt": "canción de cumpleaños emotiva para mi hija al estilo merengue, salsa, bachata, electrónica, dance",
+                "tags": ["merengue", "salsa", "bachata", "electrónica", "dance"],
+                "title": "Cumpleaños emotivo para mi hija"
+            },
+            {
+                "prompt": "canción de cumpleaños dulce para mi hija al estilo vallenato colombiano, cumbia villera, tecno cumbia, mariachi, ranchera",
+                "tags": ["vallenato colombiano", "cumbia villera", "tecno cumbia", "mariachi", "ranchera"],
+                "title": "Cumpleaños dulce para mi hija"
+            },
+            {
+                "prompt": "canción de cumpleaños cariñosa para mi mamá al estilo ranchera, mariachi, cumbia villera, vallenato colombiano, salsa",
+                "tags": ["ranchera", "mariachi", "cumbia villera", "vallenato colombiano", "salsa"],
+                "title": "Cumpleaños cariñoso para mi mamá"
+            },
+            {
+                "prompt": "canción de cumpleaños agradecida para mi mamá al estilo tecno cumbia, merengue, bachata, emd, electrónica",
+                "tags": ["tecno cumbia", "merengue", "bachata", "emd", "electrónica"],
+                "title": "Cumpleaños agradecido para mi mamá"
+            },
+            {
+                "prompt": "canción de cumpleaños para mi papá al estilo salsa, merengue, bachata, emd, electrónica",
+                "tags": ["salsa", "merengue", "bachata", "emd", "electrónica"],
+                "title": "Cumpleaños para mi papá"
+            },
+            {
+                "prompt": "canción de cumpleaños para mi papá al estilo vallenato colombiano, cumbia villera, tecno cumbia, mariachi, ranchera",
+                "tags": ["vallenato colombiano", "cumbia villera", "tecno cumbia", "mariachi", "ranchera"],
+                "title": "Cumpleaños para mi papá"
+            },
+            {
+                "prompt": "canción de cumpleaños feliz al estilo vallenato colombiano, salsa, cumbia villera, tecno cumbia, merengue",
+                "tags": ["vallenato colombiano", "salsa", "cumbia villera", "tecno cumbia", "merengue"],
+                "title": "Cumpleaños feliz"
+            },
+            {
+                "prompt": "canción de cumpleaños alegre al estilo mariachi, ranchera, bachata, emd, electrónica",
+                "tags": ["mariachi", "ranchera", "bachata", "emd", "electrónica"],
+                "title": "Cumpleaños alegre"
+            }
+        ]
+    }
+]
