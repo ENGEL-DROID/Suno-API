@@ -1,0 +1,10 @@
+
+# En Network:
+Buscar en la ventana central, no en la izquierda, la siguiente variable:
+
+**_clerk_js_version**
+
+
+Y en la primera buscar la cookie:
+
+**__stripe_mid=345abb96-053b-4b1a-8dcb-56c43f5d73ff239d54; ajs_anonymous_id=38cfe695-4b50-416c-8b31-bc8c1eed8b43; _cfuvid=SRVJglspa1vKfySnD3tDSBV4Fp1_B5VClYrIcM.FBjY-1722856836630-0.0.1.1-604800000; __client=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImNsaWVudF8yZzBDRU82V1pJTmZRRkkzdmZBN1RmOTY4WmUiLCJyb3RhdGluZ190b2tlbiI6InFjZnNyd2tya2x5cGl3bzU1czAzdjdjaHA2M2s2YmprdDM0cnBoMjYifQ.cL7KLkYvXcW8tVpmwOrFCY3efhqXAEFiYfv0Wf5WKsct1JiLV3c0iQWdLq216JLTqMAVQ9oPhYe5BgLuPRnsUJ25ZMU-IoZbjhrVGVR0eo4rfuAQpwOCyTtsCWg_HVrjWrm8e1BcMNB8P5x8Omgx2V2Z-tMUgGGnKmOdgRmhE46lEfb74tek2g274M4uHz4n0hXdhKvZJ13fSDs8AAY-xeq7fhhktKgvRzXxtRWZ8KY1fmNQ2W_celakuwXKtmmGH3ujey2t9Kdsm096EsjjBSK7ztjllzlBfWzL9_pXv-FfbP4NdMkV18zEvGoYP3ckN8qcLEze7-BiEM8XAahGlQ; __client_uat=1722856861; __cf_bm=UG3k6Fqh9Bdp_f9KqwYZCPhIWxzcXkPRezqIJzVeVe8-1722857771-1.0.1.1-bBFlUhAiIoXoYutjncv54OYzCjIU72.ZHdUn1dvAyswOX9Qxm.0XsOxEJ56IwE5hDO8ceCH_jkRJYyZ97NDa_g**
